@@ -1,54 +1,83 @@
-html, body, h4 {
-  height: 100%;
+:root {
+  /* You can define variables (and other stuff, but its mostly for variables) in the ::root selector, 
+    which basically is "nowhere" but also "everywhere" on the page */
+
+  --ad-foreground-1: #111111;
+  --ad-foreground-2: #232323;
+
+  --ad-background-1: #cecece;
+  --ad-background-2: #dddddd;
+
+  --ad-navbar-background: var(--ad-foreground-1);
+  --ad-navbar-hover: var(--ad-foreground-2);
+  --ad-navbar-text: var(--ad-background-1);
+
+  --ad-heading-color: var(--ad-foreground-1);
+  --ad-subheading-color: var(--ad-foreground-1);
+  --ad-text-color: var(--ad-foreground-1);
+}
+
+body {
+  background-color: var(--ad-background-2); /* the var() function tells CSS to look for a variable */
+
   font-family: sans-serif;
+
   margin: 0;
   padding: 0;
-  background-color:#dbdbdb;
-}
-#home {
-  background: url(images/PossibleBack.JPG);
-  background-repeat: no-repeat;
-  background-size: 100% 200%;
-	text-align: center;
-  height: 100%;
-  min-height: 600px;
-}
-h1 {
-  margin-top: 0;
-  padding-top: 200px;
-  margin-bottom: 50px;
-  font-size: 50px;
-}
-.navigation {
-  z-index: 1;
+
   text-align: center;
-  margin: 0;
-	overflow: hidden;
-	background-color: black;
-  opacity: 1;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 15vh;
+}
+
+.nav {
+  background-color: var(--ad-navbar-background);
+
+  width: 100vw;
   position: fixed;
   top: 0;
-  width: 100%;
 }
-.navigation a {
-  color: white;
-	text-align: center;
-	padding: 15px 20px;
+
+.nav-item {
+  color: var(--ad-navbar-text);
+  text-decoration: none;
+
   display: inline-block;
-	text-decoration: none;
-	font-size: 20px;
+  padding: 15px;
 }
-.social {
-  text-align: center;
-  display: inline-block;
-  padding: 0;
-  scale: 1.2;
+
+.nav-item:hover {
+  background-color: var(--ad-navbar-hover);
 }
-#about {
-  text-align: center;
-  height: 800px;
-  background-color: #c2c2c2;
+/* an example of an OOP-like class: this class when applied to any text will format it
+to look like a section heading */
+.sectionHeader {
+  margin-top: 25vh;
+  font-size: 45px;
+  color: var(--ad-heading-color);
 }
-h4 {
-  padding: 100px;
+
+.sectionSubheader {
+  font-size: 18px;
+  color: var(--ad-subheading-color);
+}
+
+.sectionContent {
+  font-size: 12px;
+  color: var(--ad-text-color);
+}
+
+.socialIcon {
+  height: 50px;
+  width: auto;
+}
+
+.homeBackground {
+  padding-top: 60px;
+  background-image: url(images/PossibleBack.JPG);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
