@@ -15,6 +15,7 @@
   --ad-heading-color: var(--ad-foreground-1);
   --ad-subheading-color: var(--ad-foreground-1);
   --ad-text-color: var(--ad-foreground-1);
+
 }
 
 body {
@@ -26,11 +27,12 @@ body {
   padding: 0;
 
   text-align: center;
+
 }
 
 section {
-  min-height: 100vh;
-  padding-top: 15vh;
+  min-height: 50vh;
+  padding-top: 10vh;
 }
 
 .nav {
@@ -77,7 +79,31 @@ to look like a section heading */
 
 .homeBackground {
   padding-top: 60px;
-  background-image: url(images/PossibleBack.JPG);
+  background-image: url(images/NewBack.JPG);
   background-repeat: no-repeat;
   background-size: 100%;
+  min-height: 100vh;
+}
+
+.pfp {
+  height: 150px;
+  width: auto;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.arrow {
+  margin-top: 30vh;
+  height: 75px;
+  width: auto;
+}
+
+.sectionTitle {
+  margin-top: -8px;
+}
+
+.words {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 20px;  
 }
