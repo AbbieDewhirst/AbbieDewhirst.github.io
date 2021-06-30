@@ -37,7 +37,7 @@ section {
 
 .nav {
   background-color: var(--ad-navbar-background);
-
+  display: inherit;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -53,6 +53,7 @@ section {
 
 .nav-item:hover {
   background-color: var(--ad-navbar-hover);
+  color: #cecece;
 }
 /* an example of an OOP-like class: this class when applied to any text will format it
 to look like a section heading */
@@ -103,8 +104,8 @@ to look like a section heading */
 }
 
 .words {
-  margin-left: 475px;
-  margin-right: 475px;
+  margin-left: 50vh;
+  margin-right: 50vh;
   font-size: 20px;  
 }
 
