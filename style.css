@@ -2,11 +2,11 @@
   /* You can define variables (and other stuff, but its mostly for variables) in the ::root selector, 
     which basically is "nowhere" but also "everywhere" on the page */
 
-  --ad-foreground-1: #111111;
-  --ad-foreground-2: #232323;
+  --ad-foreground-1: #111111; /*nav bar background, subheading colour, text colour*/
+  --ad-foreground-2: #232323; /*nav bar hover*/
 
   --ad-background-1: #cecece;
-  --ad-background-2: #dddddd;
+  --ad-background-2: #080404;
 
   --ad-navbar-background: var(--ad-foreground-1);
   --ad-navbar-hover: var(--ad-foreground-2);
@@ -31,8 +31,10 @@ body {
 }
 
 section {
+  color: #cfcfcf;
   min-height: 60vh;
   padding-top: 10vh;
+  padding-bottom: 7vh;
 }
 
 .nav {
@@ -107,10 +109,23 @@ to look like a section heading */
   margin-top: 3vh;
   margin-left: 30vh;
   margin-right: 30vh;
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
   font-size: 20px;  
 }
 
 .column {
   width: 33%;
+}
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 50%;
+}
+
+.staplesLogo {
+  margin-top: 5vh;
+  margin-bottom: 4vh;
 }
