@@ -129,3 +129,8 @@ to look like a section heading */
   margin-top: 5vh;
   margin-bottom: 4vh;
 }
+
+hr {
+  margin-left: 30vh;
+  margin-right:30vh;
+}
