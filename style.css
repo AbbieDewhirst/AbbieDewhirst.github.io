@@ -104,13 +104,13 @@ to look like a section heading */
 }
 
 .words {
-  margin-left: 50vh;
-  margin-right: 50vh;
+  margin-top: 3vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  margin-bottom: 3vh;
   font-size: 20px;  
 }
 
 .column {
-  float: right;
-  width: 32%;
-  padding: 5px;
+  width: 33%;
 }
