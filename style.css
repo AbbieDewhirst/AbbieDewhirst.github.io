@@ -130,7 +130,38 @@ to look like a section heading */
   margin-bottom: 4vh;
 }
 
-hr {
+.divider {
   margin-left: 30vh;
   margin-right:30vh;
+}
+
+.container {
+  width: 30%;
+  background-color: #080404;
+  border-radius: 25px;
+}
+
+
+.skills {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  border-radius: 25px;
+  
+}
+
+.html {width: 60%; background-color: grey;}
+.css {width: 40%; background-color: grey;}
+.c {width: 75%; background-color: grey;}
+.cpp {width: 65%; background-color: grey;}
+.python {width: 80%; background-color: grey;}
+
+.skillLogo {
+  margin-bottom: 2vh;
+}
+
+hr {
+  margin-left: 69vh;
+  margin-right: 69vh;
 }
