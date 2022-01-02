@@ -126,9 +126,14 @@ to look like a section heading */
 }
 
 .staplesLogo {
-  margin-top: 5vh;
+  margin-top:2vh;
   margin-bottom: 4vh;
 }
+
+.uWinLogo {
+  margin-top: 3vh;
+}
+
 
 .divider {
   margin-left: 30vh;
