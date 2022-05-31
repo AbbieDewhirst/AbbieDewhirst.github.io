@@ -118,20 +118,33 @@ to look like a section heading */
 }
 
 .row2 {
-  display: flex;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column2 {
-  flex: 50%;
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
 }
 
 .staplesLogo {
   margin-top:2vh;
-  margin-bottom: 4vh;
+  margin-bottom: 3vh;
 }
 
 .uWinLogo {
-  margin-top: 3vh;
+  margin-top: 2vh;
+}
+
+.fordLogo {
+  margin-top: 5vh;
+  margin-bottom: 1vh;
 }
 
 
