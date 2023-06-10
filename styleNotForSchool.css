@@ -1,9 +1,7 @@
 :root {
-    /* You can define variables (and other stuff, but its mostly for variables) in the ::root selector, 
-      which basically is "nowhere" but also "everywhere" on the page */
-  
-    --ad-foreground-1: #111111; /*nav bar background, subheading colour, text colour*/
-    --ad-foreground-2: #232323; /*nav bar hover*/
+      
+    --ad-foreground-1: #111111;
+    --ad-foreground-2: #232323;
   
     --ad-background-1: #cecece;
     --ad-background-2: #080404;
@@ -19,8 +17,7 @@
   }
   
   body {
-    background-color: var(--ad-background-2); /* the var() function tells CSS to look for a variable */
-  
+    background-color: var(--ad-background-2);
     font-family: sans-serif;
   
     margin: 0;
@@ -57,8 +54,7 @@
     background-color: var(--ad-navbar-hover);
     color: #cecece;
   }
-  /* an example of an OOP-like class: this class when applied to any text will format it
-  to look like a section heading */
+  
   .sectionHeader {
     margin-top: 25vh;
     font-size: 45px;
@@ -157,16 +153,16 @@
     width: 30%;
     background-color: #080404;
     border-radius: 25px;
+    text-align: center;
+    margin-left: 550px;
   }
   
   
   .skills {
-    text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: white;
     border-radius: 25px;
-    
   }
   
   .html {width: 60%; background-color: grey;}
@@ -177,6 +173,7 @@
   
   .skillLogo {
     margin-bottom: 2vh;
+    padding-top: 2vh;
   }
   
   hr {
@@ -185,4 +182,9 @@
   }
   #skills {
     margin-top: -10vh;
+  }
+  
+  
+  .code {
+    
   }
